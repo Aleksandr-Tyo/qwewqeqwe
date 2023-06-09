@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  display: flex;
+  
+}
+input::placeholder{
+  padding-left: 10px;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    min-width: 400px;
+    width: 100%;
+    height: 100vh;
+    background-color:#dde5b6;
+    
+    
+}
+ 
+h2{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    animation:  animate 7s both infinite
+}
+
+p{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+a{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.text p{
+    color: #27106b;
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.registerForm input{
+    width: 100%;
+    padding: 8px 0px;
+    border-radius: 5px;
+    border:0.3px solid gray;
+    outline: none;
+    vertical-align: 20px;
+    margin-top: 5px;
+}
+
+.registerForm span{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.check_text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.register__element__label {
+    display: flex;
+    gap: 5px;
+    width: 170px;
+    font-weight: 600;
+  }
+  
+  .register__element__label input {
+    width: 9%;
+  }
+  
+  .register__element__label p {
+    width: 90%;
+  }
+  .check_text p{
+    padding-top: 5px;
+  }
+
+  .forgotPassword{
+    padding-top: 5px;
+  }
+
+  .signupBtn{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    background-color: #f4a261;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  .signupBtn:hover{
+    transform: scale(1.05);
+    background :#dabfff;
+  }
+  .googleBtn{
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    padding: 8px;
+    border: 0.3px solid gray ;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  .googleBtn:hover{
+    transform: scale(1.05);
+  }
+.googleBtn img{
+    width: 22px;
+    margin-right: 3px;
+}
+
+.lastText{
+    display:flex ;
+    padding-top: 20px;
+    font-size: 14px;
+    
+   
+}
+
+.lastText p{
+    padding-right: 5px;
+    
+}
+
+  a{
+  text-decoration: none;
+  color: #27106b;
+}
+
+  .circle{   
+    width: 100%;
+    height: 100vh;
+    background-color:#adc178;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+
+.circle1{
+  width: 200px;
+  height: 200px;
+  background-color: #f4a261;
+  border-radius: 50%;
+  transition: 0.2s ease-out;
+}
+
+.circle1:hover{
+  background :#dabfff;
+  transform: scale(1.1);
+}
+
+@keyframes animate {
+	0%, 20% {
+		transform: translate3d(0, 0, 0);
+	}
+	10%, 14%, 18%, 2%, 6% {
+		transform: translate3d(-7px, 0, 0);
+	}
+	12%, 16%, 4%, 8% {
+		transform: translate3d(7px, 0, 0);
+	}
+}
+
